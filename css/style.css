@@ -1,0 +1,39 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: #F3F5FC;
+}
+header{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+main{
+    width: 1200px;
+    height: 840px;
+    margin: auto;
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+ 
+    left: 562px;
+    top: 394px;
+}
+#comecar{
+    background: #0A3871;
+    border-radius: 24px;
+    width: 317px;
+    height: 105px;
+    color: #FFFFFF;
+}
+#adicionarPlv{
+    background: #F3F5FC;
+    border-radius: 24px;
+    border-color: #0A3871;
+    width: 317px;
+    height: 105px;
+    color: #0A3871;
+}
