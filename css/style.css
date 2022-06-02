@@ -18,9 +18,10 @@ main{
     align-items: flex-start;
     gap: 8px;
     position: absolute;
- 
     left: 562px;
     top: 394px;
+    display: none;
+
 }
 #comecar{
     background: #0A3871;
@@ -36,4 +37,62 @@ main{
     width: 317px;
     height: 105px;
     color: #0A3871;
+}
+.digitar-texto{
+    display: inline-block;
+    margin-top: 30px;
+    margin: auto;
+}
+.digitar-texto #texto-digitar{
+    background-color: #F3F5FC;
+    border-color: #F3F5FC;
+    height: 600px;
+    width: 700px;
+    color: #0A3871;
+    font-size: 30px;
+}
+.digitar-texto #texto-digitar:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.digitar-texto #texto-digitar::placeholder{
+    color: #0A3871;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.digitar-texto .requisitos img{
+    width: 13px;
+}
+.digitar-texto .requisitos p{
+    font-size: 12px;
+}
+.digitar-texto .requisitos img, p{
+    display: inline-block;
+    margin-top: 30px;
+}
+.botoes{
+    margin-top: 20px;
+}
+.botoes #salvar-comecar{
+    color: #FFFFFF;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
+    margin-right: 4%;
+    
+}
+.botoes #cancelar{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
 }
