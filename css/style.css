@@ -42,6 +42,7 @@ main{
     display: inline-block;
     margin-top: 30px;
     margin: auto;
+    display: none;
 }
 .digitar-texto #texto-digitar{
     background-color: #F3F5FC;
@@ -95,4 +96,61 @@ main{
     width: 280px;
     height: 58px;
     font-size: 15px;
+}
+.forca{
+    height: 700px;
+}
+.palavras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+}
+.retangulo{
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.retangulo2{
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.botoes2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+#novo-jogo{
+    color: #FFFFFF;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
+    margin-right: 2%;
+
+}
+#desistir{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
+
 }
