@@ -52,6 +52,7 @@ main{
     color: #0A3871;
     font-size: 30px;
 }
+
 .digitar-texto #texto-digitar:focus{
     box-shadow: 0 0 0 0;
     border: 0 none;
